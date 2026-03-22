@@ -7,6 +7,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "10.2025",
     },
+    link: "https://www.linkedin.com/in/hoang-lv",
     skills: [
       "Flutter",
       "Dart",
@@ -40,6 +41,7 @@ export const PROJECTS: Project[] = [
       start: "08.2025",
       end: "10.2025",
     },
+    link: "https://www.linkedin.com/in/hoang-lv",
     skills: [
       "Flutter",
       "Dart",
@@ -73,6 +75,7 @@ export const PROJECTS: Project[] = [
       start: "04.2025",
       end: "07.2025",
     },
+    link: "https://www.linkedin.com/in/hoang-lv",
     skills: [
       "React Native",
       "TypeScript",
@@ -99,6 +102,7 @@ export const PROJECTS: Project[] = [
       start: "08.2024",
       end: "03.2025",
     },
+    link: "https://www.linkedin.com/in/hoang-lv",
     skills: [
       "React Native",
       "Expo",
@@ -125,6 +129,7 @@ export const PROJECTS: Project[] = [
       start: "08.2023",
       end: "08.2024",
     },
+    link: "https://www.linkedin.com/in/hoang-lv",
     skills: [
       "React Native",
       "JavaScript",
