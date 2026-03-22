@@ -2,27 +2,43 @@ import type { Experience } from "../types/experiences"
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "shadcncraft",
-    companyName: "shadcncraft",
-    companyLogo: "https://assets.chanhdai.com/images/companies/shadcncraft.svg",
-    companyWebsite: "https://shadcncraft.com",
+    id: "project-c",
+    companyName: "Crypto Wallet App (Flutter — Project C)",
     positions: [
       {
         id: "1",
-        title: "Design Engineer",
+        title: "Mobile Tech Lead",
         employmentPeriod: {
-          start: "01.2026",
+          start: "10.2025",
         },
         employmentType: "Full-time",
         icon: "code",
-        description:
-          "- Work on the registry and React component library.\n- Design and build Pro application components and blocks, from Figma to production-ready React.",
+        description: `- A self-custody multi-chain crypto wallet for iOS and Android, supporting Bitcoin, Ethereum (EVM), XRP, TRON, BSC, and TON — enabling users to send, receive, purchase tickets with crypto, and swap tokens.
+- Developed multi-chain wallet features (send, receive, swap, transaction history) for Bitcoin, Ethereum, XRP, Tron, and TON.
+- Implemented GitLab CI/CD pipelines for both iOS and Android — covering code quality checks, unit tests, dependency version verification, automated builds (APK/AAB/IPA), and deployment to Firebase App Distribution (dev) and Google Play Console / TestFlight (production), with Slack/webhook notifications.
+- Integrated analytics and monitoring stack: Sentry (crash reporting with PII filtering), AppsFlyer (install attribution).
+- Maintained clean architecture with Repository pattern, Riverpod state management, and code generation.
+- Collaborated with backend developers on REST API integration via Retrofit/Dio and with BA to deliver technical solutions for complex blockchain features.`,
         skills: [
-          "TypeScript",
-          "Next.js",
-          "Tailwind CSS",
-          "shadcn/registry",
-          "Figma",
+          "Flutter",
+          "Dart",
+          "Riverpod",
+          "Hooks Riverpod",
+          "Flutter BLoC",
+          "Freezed",
+          "Go Router",
+          "Retrofit",
+          "Dio",
+          "web3dart",
+          "blockchain_utils",
+          "bitcoin_base",
+          "bip39_mnemonic",
+          "on_chain",
+          "Firebase Analytics",
+          "Firebase Messaging",
+          "Sentry",
+          "AppsFlyer",
+          "GitLab CI/CD",
         ],
         isExpanded: true,
       },
@@ -30,314 +46,161 @@ export const EXPERIENCES: Experience[] = [
     isCurrentEmployer: true,
   },
   {
-    id: "quaric",
-    companyName: "Quaric",
-    companyLogo: "https://assets.chanhdai.com/images/companies/quaric.svg",
-    companyWebsite: "https://quaric.com",
+    id: "project-b",
+    companyName: "Crypto Wallet App (Flutter — Project B)",
     positions: [
-      {
-        id: "2",
-        title: "Design Engineer",
-        employmentPeriod: {
-          start: "03.2024",
-        },
-        employmentType: "Part-time",
-        icon: "code",
-        description: `- Created Quaric Brand Identity.
-- Created the Quaric Design System to standardize design practices and accelerate development.
-
-In-house Project: [Quaric Website](https://quaric.com)
-- Designed the UI/UX for Quaric Website, delivering a seamless experience.
-- Developed online ordering to streamline purchases.
-- Integrated VNPAY-QR for secure transactions.
-- Registered the e-commerce site with [online.gov.vn](http://online.gov.vn/website/chi-tiet-115855) for compliance.
-
-In-house Project: [ZaDark](https://zadark.com)
-- Build and maintain ZaDark.com with Docusaurus, integrating AdSense.
-- Develop and maintain the ZaDark extension for Zalo Web on Chrome, Safari, Edge, and Firefox — with 20k+ active users via Chrome Web Store (as of Sep 2025).`,
-        skills: [
-          "Next.js",
-          "Strapi",
-          "Auth0",
-          "VNPAY-QR",
-          "Docker",
-          "NGINX",
-          "Google Cloud",
-          "Docusaurus",
-          "Extension",
-          "UI/UX Design",
-          "UX Writing",
-          "Design System",
-          "Brand Design",
-          "Figma",
-          "Research",
-        ],
-      },
       {
         id: "1",
-        title: "Founder",
+        title: "Mobile Technical Leader",
         employmentPeriod: {
-          start: "03.2024",
-        },
-        employmentType: "Part-time",
-        icon: "idea",
-        skills: ["Business Ownership", "Business Law", "Business Tax"],
-      },
-    ],
-    isCurrentEmployer: true,
-  },
-  {
-    id: "simplamo",
-    companyName: "Simplamo",
-    companyLogo: "https://assets.chanhdai.com/images/companies/simplamo.webp",
-    positions: [
-      {
-        id: "2",
-        title: "Senior Frontend Developer",
-        employmentPeriod: {
-          start: "10.2022",
-          end: "01.2026",
+          start: "08.2025",
+          end: "10.2025",
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Built Tree & Gantt views features to improve goal organization, visibility, and progress tracking.
-- Developed [AI Chat](https://help.simplamo.com/features/simplamo-ai/ai-chat/guide_simplamo_ai_chat?ref=IN-926722) and [AI Assistant](https://help.simplamo.com/features/simplamo-ai/ai-expert/aiexpert-rockdiscribe?ref=IN-926722) features.
-- Developed [Whiteboards](https://help.simplamo.com/features/whiteboard/overview?ref=IN-926722) with real-time collaboration.
-- Built and maintained the [Zalo Mini App](https://zalo.me/s/1736112917405511258/) for Simplamo with seamless integration.
-- Developed interactive chart and analytics widgets for the [Dashboard](https://help.simplamo.com/features/dashboard/overview) to enhance data visualization.
-- Developed and maintained core features to enhance functionality and user experience.
-- Ensured UI/UX consistency and adherence to standards.
-- Implemented robust frontend solutions for web and mobile platforms.
-- Analyzed technical capabilities and provided optimal solutions.`,
+        description: `- A multi-chain crypto wallet supporting EVM, Bitcoin, TON, XRP, Tron, Cardano (ADA), and Polkadot — with wallet creation/restoration, token/coin transfers, NFT management, token swapping, staking, and Cardano governance participation.
+- Developed multi-chain transaction features (send/receive coin & token) across EVM, TON, XRP, Tron, and Cardano using native blockchain SDKs and HD Wallet (BIP39/BIP44) key derivation.
+- Implemented staking module supporting token staking, unstaking, reward claiming, and staking history across multiple protocols including ADA (Cardano).
+- Built ChangeNow cross-chain swap integration including swap flow UI, rate estimation, transaction status tracking, swap history, and refund/cancel handling via ChangeNow API.
+- Maintained clean architecture with Repository pattern, Riverpod state management, and code generation.
+- Collaborated with backend developers on REST API integration via Retrofit/Dio and with BA to deliver technical solutions for complex blockchain features.`,
         skills: [
-          "TypeScript",
-          "Next.js",
-          "React Native",
-          "MobX",
-          "MobX-State-Tree",
-          "Tailwind CSS",
-          "Dify",
-          "Zalo Mini App",
-          "Agile",
-          "Teamwork",
-          "Research",
-          "Problem-solving",
+          "Flutter",
+          "Dart",
+          "Riverpod",
+          "Auto Route",
+          "GetIt",
+          "Injectable",
+          "Retrofit",
+          "Dio",
+          "Hive",
+          "Flutter Secure Storage",
+          "Firebase",
+          "web3dart",
+          "ton_dart",
+          "bitcoin_base",
+          "xrpl_dart",
+          "polkadart",
+          "on_chain",
+          "blockchain_utils",
+          "BIP39/BIP44",
+          "Cardano",
+          "AppsFlyer",
+          "IronSource",
+          "Google Mobile Ads",
         ],
-      },
-      {
-        id: "1",
-        title: "UI Lead",
-        employmentPeriod: {
-          start: "10.2022",
-          end: "01.2026",
-        },
-        employmentType: "Full-time",
-        icon: "design",
-        description: `- Ensured UI/UX consistency and high-quality standards.
-- Designed intuitive, user-focused interfaces aligned with business goals.
-- Defined and established a cohesive UI style for Simplamo.`,
-        skills: ["Creativity", "UI/UX Design", "Figma"],
       },
     ],
   },
   {
-    id: "tungtung",
-    companyName: "Tung Tung",
-    companyLogo: "https://assets.chanhdai.com/images/companies/tungtung.webp",
+    id: "mapbox-app",
+    companyName: "MapBox Geospatial App",
     positions: [
       {
-        id: "3",
-        title: "Web Developer",
-        employmentPeriod: {
-          start: "2020",
-          end: "2022",
-        },
-        employmentType: "Full-time",
-        description: `- Built a scalable design system for consistency and efficiency.
-- Built a complex rich-text editor based on ProseMirror and Slate for customizable content creation.
-- Integrated APIs with the Backend Team to enhance functionality.`,
-        icon: "code",
-        skills: [
-          "React",
-          "Redux",
-          "Storybook",
-          "Lerna",
-          "Agile",
-          "Teamwork",
-          "Research",
-        ],
-      },
-      {
-        id: "2",
+        id: "1",
         title: "Mobile Developer",
         employmentPeriod: {
-          start: "2019",
-          end: "2020",
+          start: "04.2025",
+          end: "07.2025",
         },
         employmentType: "Full-time",
-        description: `- Rebuilt the app with React Native for better UX and performance.
-- Integrated MoMo and in-app purchases for seamless payments.
-- Optimized deployment for staging and production.
-- Published on App Store and Google Play, ensuring compliance.`,
         icon: "code",
+        description: `- A professional geospatial app for land parcel management, infrastructure assessment, and data visualization — designed for field engineers and GIS analysts in energy infrastructure planning.
+- Developed new data layers including GB Land Parcels and Extracted Title Deed Data Layer, integrating geospatial data rendering on Mapbox GL maps.
+- Built a Photo Layer feature enabling geo-tagged photos to be visualized directly on the map as a dedicated data layer.
+- Implemented geo-tagged photo upload (online and offline) with HEIC conversion support and local Realm storage for offline queuing and sync.
+- Integrated PDF document upload feature supporting both online and offline modes, with local persistence and background synchronization.
+- Built bulk download functionality for Extracted Title Deed documents with async file operations via React Native FS.
+- Developed offline-capable land parcel annotation features including Notes, Next Steps, and Contact Details with local Realm storage and sync.
+- Implemented geospatial measurement tools (distance, area) for offline field use using Turf.js and Mapbox GL draw interactions.
+- Built GPS tracking features for both online and offline modes with real-time map visualization.`,
         skills: [
           "React Native",
-          "Redux",
-          "MoMo Payment API",
-          "App Store",
-          "Google Play Store",
-          "App Center",
-          "Agile",
-          "Teamwork",
-          "Research",
+          "TypeScript",
+          "Redux Toolkit",
+          "redux-persist",
+          "Realm",
+          "Mapbox GL",
+          "Axios",
+          "React Navigation",
+          "Formik",
+          "Yup",
+          "Turf.js",
+          "React Native FS",
+          "Offline Sync",
         ],
       },
+    ],
+  },
+  {
+    id: "project-a",
+    companyName: "Crypto Wallet App (React Native — Project A)",
+    positions: [
       {
         id: "1",
-        title: "UI/UX Designer",
+        title: "Mobile Developer",
         employmentPeriod: {
-          start: "2018",
-          end: "2019",
+          start: "08.2024",
+          end: "03.2025",
         },
         employmentType: "Full-time",
-        description: `- Designed a Landing Page for enterprise clients.
-- Redesigned the Online Quiz Platform for a modern look on web and mobile.
-- Redesigned the Pricing interface for individual customers.
-- Enhanced UX by improving usability, navigation, and user flow.`,
-        icon: "design",
-        skills: ["UI/UX Design", "Sketch"],
-      },
-    ],
-  },
-  {
-    id: "freelance",
-    companyName: "Freelance",
-    positions: [
-      {
-        id: "2",
-        title: "Full-stack Developer",
-        employmentPeriod: {
-          start: "2018",
-          end: "2020",
-        },
-        employmentType: "Part-time",
-        description: `- Built an order management website with real-time delivery tracking.
-- Developed an e-commerce site for bird's nest products.
-- Created a map to display monitoring station data.
-- Designed a customizable WordPress landing page.`,
         icon: "code",
+        description: `- A crypto wallet application supporting token/coin transfers, NFT transfers, and token claiming with support for Bitcoin, TON, and EVM protocols.
+- Developed crypto transactions (coin/token transfers) on the EVM blockchain using Web3.js & Moralis.
+- Optimized and enhanced UI/UX animations for a smoother user experience using Reanimated.
+- Built and maintained reusable React Native components for scalability.
+- Refactored key services to improve performance and maintainability.
+- Collaborated with backend developers to integrate smart contract interactions.
+- Worked directly with BA to provide technical consultation and solutions.`,
         skills: [
-          "Laravel",
-          "React",
-          "Express.js",
-          "Socket.IO",
-          "MongoDB",
+          "React Native",
+          "Expo",
+          "TypeScript",
+          "Redux",
+          "Redux Toolkit",
+          "Reanimated",
+          "Auth0",
           "Firebase",
-          "WordPress",
-          "Docker",
-          "NGINX",
-        ],
-      },
-      {
-        id: "1",
-        title: "Graphic & UI/UX Designer",
-        employmentPeriod: {
-          start: "2018",
-          end: "2019",
-        },
-        employmentType: "Part-time",
-        description: "Designed logos, posters, ads, and UI.",
-        icon: "design",
-        skills: [
-          "Creativity",
-          "UI/UX Design",
-          "Graphic Design",
-          "Sketch",
-          "Adobe Photoshop",
-          "Adobe Illustrator",
+          "Axios",
+          "React Navigation",
+          "Lottie",
+          "Web3.js",
+          "Moralis",
+          "TON SDK",
+          "HD Wallet",
+          "Node.js",
+          "MongoDB",
         ],
       },
     ],
   },
   {
-    id: "education",
-    companyName: "Education",
+    id: "home-services",
+    companyName: "Home Services App",
     positions: [
       {
-        id: "3",
-        title: "University of Science — VNUHCM",
-        employmentPeriod: {
-          start: "08.2018",
-          end: "10.2026",
-        },
-        icon: "education",
-        description: `- Currently studying for a Bachelor's degree in Information Systems.
-- Language Proficiency: B1 level in English (CEFR).
-- Achieved several awards, including:
-  - Bronze Medal — 10th Design, Manufacturing, and Application Award 2022
-  - 2nd Prize — Business Startup Competition 2019`,
-        skills: [
-          "C++",
-          "Java",
-          "Python",
-          "PHP",
-          "DSA",
-          "Advanced Databases",
-          "Systems Design",
-          "Distributed Systems",
-          "Software Engineering",
-          "Teamwork",
-        ],
-      },
-      {
-        id: "2",
-        title: "Ly Tu Trong High School for the Gifted — Can Tho City",
-        employmentPeriod: {
-          start: "08.2015",
-          end: "06.2018",
-        },
-        icon: "education",
-        description: `- Student of the Specialized Computer Science Program.
-- Granted direct admission to university due to achieving 3rd Prize at the national level.
-- [Achieved numerous awards](https://baocantho.com.vn/nguyen-chanh-dai-17-tuoi-va-19-giai-thuong-a97348.html) at city and national levels, including:
-  - [3rd Prize](https://muctim.tuoitre.vn/cong-cu-ho-tro-viec-day-va-hoc-55107.htm) — National Science and Engineering Fair 2018 (ViSEF)
-  - 1st Prize — Can Tho City Science and Engineering Fair 2018
-  - Creativity Award — Binh Duong Hackathon 2017
-  - Consolation Prize — National Youth and Children's Creativity Contest 2016
-  - [1st Prize](https://www.youtube.com/watch?v=OYgugvjqU4A) — Can Tho City Youth and Children's Creativity Contest 2016
-  - 3rd Prize — National Young Informatics Contest 2016
-- Achieved the title of Outstanding Student from Grade 10-12.
-- Selected for the National Excellent Student Contest in Informatics for two consecutive years during high school.
-- Honored on the school's "Hall of Fame" for academic achievements.
-- Developed a feature using Node.js and Pandoc to recognize multiple-choice questions from .docx files and upload them to an [online quiz platform](https://youtu.be/QjR99wdmTyo) I created.
-- Developed websites based on Laravel framework.
-- Built websites with PHP and MySQL, following the MVC architecture.`,
-        skills: [
-          "Algorithms",
-          "C++",
-          "PHP",
-          "MySQL",
-          "Laravel",
-          "Node.js",
-          "Pandoc",
-        ],
-      },
-      {
         id: "1",
-        title: "Thuan Hung Secondary School",
+        title: "Mobile Developer",
         employmentPeriod: {
-          start: "08.2011",
-          end: "06.2015",
+          start: "08.2023",
+          end: "08.2024",
         },
-        icon: "education",
-        description: `- Recognized as the most outstanding student of the district.
-- Achieved numerous awards at city and national levels:
-  - Consolation Prize — National Young Informatics Contest 2015
-  - Consolation Prize — National Young Informatics Contest 2014
-  - 1st Prize — Can Tho City Young Informatics Contest 2014
-- Achieved the title of Outstanding Student from Grade 6-9.
-- Developed websites using the open-source NukeViet CMS.`,
-        skills: ["Pascal", "NukeViet", "HTML", "CSS", "JavaScript"],
+        employmentType: "Full-time",
+        icon: "code",
+        description: `- A mobile application for scheduling home services (painting, moving, repairs, etc.), integrating both customer & provider systems.
+- Optimized code by separating monolithic service files into reusable, maintainable components.
+- Developed messaging, booking, service configuration, and job status tracking features.
+- Worked directly with customers, providing technical consultation and solutions.`,
+        skills: [
+          "React Native",
+          "JavaScript",
+          "Redux",
+          "Redux-Saga",
+          "Firebase",
+          "Laravel",
+          "SQL",
+          "Stripe",
+        ],
       },
     ],
   },

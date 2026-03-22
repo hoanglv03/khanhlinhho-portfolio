@@ -1,66 +1,43 @@
 import type { User } from "@/features/portfolio/types/user"
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Việt Hoàng",
+  lastName: "Lương",
+  displayName: "Lương Việt Hoàng",
+  username: "hoanglv03",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "Mobile Tech Lead specializing in React Native & Flutter with blockchain expertise.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "Mobile Tech Lead",
+    "React Native Developer",
+    "Flutter Developer",
+    "Blockchain Integration",
   ],
   address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
-  jobs: [
-    {
-      title: "Design Engineer",
-      company: "shadcncraft",
-      website: "https://shadcncraft.com",
-      experienceId: "shadcncraft",
-    },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
-      experienceId: "quaric",
-    },
-  ],
+  email: "bHVvbmdob2FuZzI5MDIyMDAzQGdtYWlsLmNvbQ==", // base64 encoded
+  website: "https://hoanglv-mobile-dev.vercel.app",
+  jobTitle: "Mobile Tech Lead",
+  jobs: [],
   about: `
-- **Design Engineer** with 5+ years of experience, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark)*
-  - 30k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)*
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - 12k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)*
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
-
-<p class="text-muted-foreground">* Peak metrics recorded; actual current figures may vary.</p>
+- **Mobile Tech Lead** with extensive experience in **React Native** and **Flutter**, specializing in complex mobile applications with blockchain integration.
+- Proficient in multi-chain crypto wallet development supporting **EVM, Bitcoin, TON, XRP, Tron, and Cardano (ADA)** — implementing token transfers, NFT management, staking, and HD Wallet key derivation using BIP39/BIP44.
+- Strong expertise across mobile libraries: **Redux**, **Riverpod**, **BLoC**, **Reanimated**, **React Navigation**, **Firebase**, **Retrofit/Dio**, and **Expo**.
+- Hands-on experience with geospatial mobile applications using **Mapbox GL**, including offline-capable data layers, GPS tracking, and land parcel annotation.
+- Led mobile teams maintaining clean architecture with the **Repository pattern**, code generation, CI/CD pipelines for iOS and Android, and close collaboration with backend developers and BAs.
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-dark.png?v=7",
-  namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3?v=3",
+  avatar: "https://github.com/hoanglv03.png",
+  ogImage: "https://github.com/hoanglv03.png",
   timeZone: "Asia/Ho_Chi_Minh",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "hoanglv03",
+    "hoang lv",
+    "luong viet hoang",
+    "lương việt hoàng",
+    "mobile developer",
+    "react native",
+    "flutter",
+    "blockchain",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2026-03-22", // YYYY-MM-DD
 }

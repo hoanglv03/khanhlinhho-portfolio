@@ -38,13 +38,13 @@ export const MAIN_NAV: NavItem[] = [
   },
 ]
 
-export const X_USERNAME = "@iamncdai"
-export const GITHUB_USERNAME = "ncdai"
-export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com"
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com"
-
-export const SPONSORSHIP_URL = "https://github.com/sponsors/ncdai"
+export const X_USERNAME = undefined
+export const GITHUB_USERNAME = "hoanglv03"
+export const SPONSORSHIP_URL = undefined
+export const SOURCE_CODE_GITHUB_REPO = "hoanglv03/hoanglv-mobile-dev"
+export const SOURCE_CODE_GITHUB_URL =
+  "https://github.com/hoanglv03/hoanglv-mobile-dev"
 
 export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
+  utm_source: "hoanglv-mobile-dev.vercel.app",
 }
