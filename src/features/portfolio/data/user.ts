@@ -14,8 +14,8 @@ export const USER: User = {
     "Flutter Developer",
     "Blockchain Integration",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  email: "bHVvbmdob2FuZzI5MDIyMDAzQGdtYWlsLmNvbQ==", // base64 encoded
+  address: "Ha Noi, Viet Nam",
+  email: "aG9hbmdsdjMud29ya0BnbWFpbC5jb20=", // base64 encoded
   website: "https://hoanglv-mobile-dev.vercel.app",
   jobTitle: "Mobile Tech Lead",
   jobs: [],

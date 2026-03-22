@@ -21,6 +21,16 @@ const nextConfig: NextConfig = {
         hostname: "github.com",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.jsdelivr.net",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.simpleicons.org",
+        port: "",
+      },
     ],
     qualities: [75, 100],
   },
