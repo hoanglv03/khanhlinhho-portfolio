@@ -1,11 +1,10 @@
 "use client"
 
 import { useMotionValueEvent, useScroll } from "motion/react"
-import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { useEffect, useRef, useState } from "react"
 
-import { USER } from "@/features/portfolio/data/user"
+import { ChanhDaiMark } from "./chanhdai-mark"
 
 const calcDistance = (el: HTMLElement) => {
   const rect = el.getBoundingClientRect()
@@ -14,20 +13,7 @@ const calcDistance = (el: HTMLElement) => {
   return scrollTop + rect.top + rect.height - headerHeight
 }
 
-function AvatarMark({ className }: { className?: string }) {
-  return (
-    <Image
-      src={USER.avatar}
-      alt={USER.displayName}
-      width={32}
-      height={32}
-      className={`size-8 rounded-full object-cover ring-1 ring-foreground/10 ${className ?? ""}`}
-      unoptimized
-    />
-  )
-}
-
-function AvatarMarkMotion() {
+function ChanhDaiMarkMotion() {
   const { scrollY } = useScroll()
   const [visible, setVisible] = useState(false)
   const distanceRef = useRef(160)
@@ -53,8 +39,9 @@ function AvatarMarkMotion() {
   }, [])
 
   return (
-    <AvatarMark
-      className={`translate-y-2 opacity-0 transition-[opacity,translate] duration-300 ${visible ? "translate-y-0 opacity-100" : ""}`}
+    <ChanhDaiMark
+      data-visible={visible}
+      className="translate-y-2 opacity-0 transition-[opacity,translate] duration-300 data-[visible=true]:translate-y-0 data-[visible=true]:opacity-100"
     />
   )
 }
@@ -62,5 +49,5 @@ function AvatarMarkMotion() {
 export function SiteHeaderMark() {
   const pathname = usePathname()
   const isHome = ["/", "/index"].includes(pathname)
-  return isHome ? <AvatarMarkMotion /> : <AvatarMark />
+  return isHome ? <ChanhDaiMarkMotion /> : <ChanhDaiMark />
 }
