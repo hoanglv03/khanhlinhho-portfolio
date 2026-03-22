@@ -156,13 +156,6 @@ export const TECH_STACK: TechStack[] = [
     iconUrl: `${DI}/mongodb/mongodb-original.svg`,
   },
   {
-    key: "docker",
-    title: "Docker",
-    href: "https://www.docker.com/",
-    categories: ["Containerization"],
-    iconUrl: `${DI}/docker/docker-original.svg`,
-  },
-  {
     key: "git",
     title: "Git",
     href: "https://git-scm.com/",
