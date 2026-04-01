@@ -33,10 +33,8 @@ export const USER: User = {
 - Acts as the bridge between business stakeholders and technical teams, translating complex business needs into clear, actionable system requirements.
 - Skilled in **Figma, draw.io/Moqups** for wireframing; **Jira & Confluence** for project tracking and documentation.
 `,
-  avatar:
-    "https://media.licdn.com/dms/image/v2/D4D03AQETW698785S_Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726136685041?e=1776902400&v=beta&t=QqQ-jE9l9aqPW_vt6uYUTCba5SaU8YkJCg1sczCw_L8",
-  ogImage:
-    "https://media.licdn.com/dms/image/v2/D4D03AQETW698785S_Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726136685041?e=1776902400&v=beta&t=QqQ-jE9l9aqPW_vt6uYUTCba5SaU8YkJCg1sczCw_L8",
+  avatar: "/avatar.jpeg",
+  ogImage: "/avatar.jpeg",
   timeZone: "Asia/Ho_Chi_Minh",
   keywords: [
     "khanhlinhho",
