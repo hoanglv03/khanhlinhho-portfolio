@@ -1,6 +1,6 @@
 import type { Project } from "../types/projects"
 
-const LINKEDIN_URL = "https://www.linkedin.com/in/thi-khanh-linhho-b5154512b"
+const LINKEDIN_URL = "https://www.linkedin.com/in/thi-khanh-linh-ho-b5154512b/"
 
 export const PROJECTS: Project[] = [
   {

@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import type { ProfilePage as PageSchema, WithContext } from "schema-dts"
 
 import { About } from "@/features/portfolio/components/about"
+import { Certifications } from "@/features/portfolio/components/certifications"
 import { Experiences } from "@/features/portfolio/components/experiences"
 import { GitHubContributions } from "@/features/portfolio/components/github-contributions"
 import { Overview } from "@/features/portfolio/components/overview"
@@ -55,6 +56,9 @@ export default function Page() {
         <Separator />
 
         <Projects />
+        <Separator />
+
+        <Certifications />
         <Separator />
       </div>
     </>
