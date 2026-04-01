@@ -1,147 +1,156 @@
 import type { Project } from "../types/projects"
 
+const LINKEDIN_URL = "https://www.linkedin.com/in/thi-khanh-linhho-b5154512b"
+
 export const PROJECTS: Project[] = [
   {
-    id: "crypto-wallet-flutter-c",
-    title: "Crypto Wallet App — Flutter (Project C)",
+    id: "gaming-content-distribution",
+    title: "Gaming Content Distribution Platform",
     period: {
-      start: "10.2025",
+      start: "03.2026",
     },
-    link: "https://www.linkedin.com/in/hoang-lv",
+    link: LINKEDIN_URL,
     skills: [
-      "Flutter",
-      "Dart",
-      "Riverpod",
-      "BLoC",
-      "Freezed",
-      "Go Router",
-      "Retrofit",
-      "Dio",
-      "web3dart",
-      "blockchain_utils",
-      "bitcoin_base",
-      "on_chain",
-      "Firebase",
-      "Sentry",
-      "AppsFlyer",
-      "GitLab CI/CD",
+      "Requirements Analysis",
+      "FSD",
+      "Workflow Design",
+      "Figma",
+      "Agile/Scrum",
+      "UAT",
     ],
-    description: `A self-custody multi-chain crypto wallet for iOS and Android supporting Bitcoin, Ethereum (EVM), XRP, TRON, BSC, and TON.
-- Send, receive, purchase tickets with crypto, and swap tokens across multiple chains
-- GitLab CI/CD pipelines for iOS & Android with Firebase App Distribution and TestFlight
-- Sentry crash reporting with PII filtering, AppsFlyer install attribution
-- Clean architecture with Repository pattern and Riverpod state management
+    description: `A centralized digital platform for product content management and submission workflows across multiple distribution channels.
+- Multi-product management, version control, and structured submission processes
+- Validation rules and business logic for data accuracy and platform compliance
+- End-to-end workflow design: product setup, metadata management, and submission
+- Agile delivery with sprint planning, backlog grooming, and cross-team collaboration
 `,
     isExpanded: true,
   },
   {
-    id: "crypto-wallet-flutter-b",
-    title: "Crypto Wallet App — Flutter (Project B)",
+    id: "saas-engineering-platform",
+    title: "SaaS Engineering Platform",
     period: {
-      start: "08.2025",
+      start: "01.2026",
+      end: "03.2026",
+    },
+    link: LINKEDIN_URL,
+    skills: [
+      "Requirements Analysis",
+      "FSD",
+      "Batch Processing",
+      "PDF/Excel Reports",
+      "UAT",
+      "Stakeholder Management",
+    ],
+    description: `Transformed a legacy corrosion calculation tool into a scalable multi-user SaaS platform for Oil & Gas, CCS, and Hydrogen industries.
+- Multi-user application with persistent session management
+- Batch processing via CSV/XLS uploads and automated report generation (PDF/Excel)
+- Defined input/output rules, validation logic, and multi-environment evaluation workflows
+`,
+  },
+  {
+    id: "airport-lounges-phase-2-1",
+    title: "Airport Lounges Distribution System (Phase 2.1)",
+    period: {
+      start: "10.2025",
+      end: "01.2026",
+    },
+    link: LINKEDIN_URL,
+    skills: [
+      "Workflow Design",
+      "Voucher Management",
+      "B2B Logic",
+      "UAT",
+      "Requirements Analysis",
+    ],
+    description: `Digital platform for end-to-end management of airport services including priority check-in, fast-track security, and meet-and-greet.
+- End-to-end workflows: booking, validation, assignment, execution, and feedback
+- Voucher/combo validation, cancellation & penalty rules with conditional deduction logic
+- Credit limit validation logic for B2B agents during order placement
+`,
+  },
+  {
+    id: "airport-lounges-phase-2",
+    title: "Airport Lounges Distribution System (Phase 2)",
+    period: {
+      start: "02.2025",
       end: "10.2025",
     },
-    link: "https://www.linkedin.com/in/hoang-lv",
+    link: LINKEDIN_URL,
     skills: [
-      "Flutter",
-      "Dart",
-      "Riverpod",
-      "Auto Route",
-      "GetIt",
-      "Retrofit",
-      "Dio",
-      "Hive",
-      "web3dart",
-      "ton_dart",
-      "bitcoin_base",
-      "xrpl_dart",
-      "polkadart",
-      "BIP39/BIP44",
-      "Cardano",
-      "Firebase",
-      "IronSource",
+      "Requirements Gathering",
+      "FRD",
+      "Wireframing",
+      "B2B/Agency Portal",
+      "UAT",
+      "Change Management",
     ],
-    description: `A multi-chain crypto wallet supporting EVM, Bitcoin, TON, XRP, Tron, Cardano (ADA), and Polkadot.
-- Wallet creation/restoration, token/coin transfers, NFT management, staking, and Cardano governance participation
-- HD Wallet key derivation using BIP39/BIP44 for all supported chains
-- ChangeNow cross-chain swap with rate estimation, transaction tracking, and refund handling
-- Staking module: stake, unstake, claim rewards, and staking history across multiple protocols
+    description: `Nationwide SH Lounge platform serving individual customers, corporate clients, and agencies with flexible pricing policies.
+- B2B and Agency distribution channels; role-based access control and pricing policy management
+- Dedicated B2B/Agency web portal and enhanced Client App (discount codes, account management)
+- Workshops, UAT sessions, and scope/change request tracking
 `,
   },
   {
-    id: "mapbox-geospatial",
-    title: "MapBox Geospatial App",
+    id: "crypto-wallet",
+    title: "Crypto Wallet",
     period: {
-      start: "04.2025",
-      end: "07.2025",
+      start: "07.2024",
+      end: "02.2025",
     },
-    link: "https://www.linkedin.com/in/hoang-lv",
+    link: LINKEDIN_URL,
     skills: [
-      "React Native",
-      "TypeScript",
-      "Redux Toolkit",
-      "Realm",
-      "Mapbox GL",
-      "Turf.js",
-      "React Native FS",
-      "Offline Sync",
-      "GPS Tracking",
+      "Requirements Analysis",
+      "Stakeholder Management",
+      "Blockchain",
+      "NFT",
+      "Workshop Facilitation",
     ],
-    description: `A professional geospatial app for land parcel management and infrastructure assessment for field engineers and GIS analysts.
-- GB Land Parcels and Extracted Title Deed Data layers on Mapbox GL
-- Geo-tagged photo layer with HEIC conversion and offline queuing via Realm
-- Offline-capable annotation: Notes, Next Steps, Contact Details with background sync
-- Geospatial measurement tools (distance, area) using Turf.js for offline field use
-- GPS tracking for online and offline modes with real-time map visualization
+    description: `Mobile app and web platform for managing tokens, coins, and NFTs across multiple blockchain protocols.
+- Requirement clarification workshops with stakeholders
+- Bridge between product development team, customers, and technical stakeholders
 `,
   },
   {
-    id: "crypto-wallet-react-native",
-    title: "Crypto Wallet App — React Native (Project A)",
+    id: "resource-management",
+    title: "Resource Management Website",
     period: {
       start: "08.2024",
-      end: "03.2025",
+      end: "02.2025",
     },
-    link: "https://www.linkedin.com/in/hoang-lv",
+    link: LINKEDIN_URL,
     skills: [
-      "React Native",
-      "Expo",
-      "TypeScript",
-      "Redux Toolkit",
-      "Reanimated",
-      "Web3.js",
-      "Moralis",
-      "TON SDK",
-      "HD Wallet",
-      "Auth0",
-      "Firebase",
+      "SRS Documentation",
+      "Wireframing",
+      "Figma",
+      "draw.io",
+      "Requirements Analysis",
     ],
-    description: `A crypto wallet application supporting token/coin transfers, NFT transfers, and token claiming for Bitcoin, TON, and EVM.
-- EVM blockchain transactions using Web3.js & Moralis
-- Smooth UI/UX animations with React Native Reanimated
-- Smart contract interactions integrated with backend team
+    description: `Streamlined internal resource management platform for team capacity and allocation tracking.
+- Comprehensive Software Requirements Specifications (SRS)
+- Wireframes and mock-ups using draw.io/Moqups and Figma; collaborated with UI/UX team
 `,
   },
   {
-    id: "home-services-app",
-    title: "Home Services App",
+    id: "bvms",
+    title: "BVMS — Voyage Management System",
     period: {
-      start: "08.2023",
-      end: "08.2024",
+      start: "12.2023",
+      end: "02.2024",
     },
-    link: "https://www.linkedin.com/in/hoang-lv",
+    link: LINKEDIN_URL,
     skills: [
-      "React Native",
-      "JavaScript",
-      "Redux",
-      "Redux-Saga",
-      "Firebase",
-      "Laravel",
-      "Stripe",
+      "Requirements Analysis",
+      "SRS",
+      "Test Cases",
+      "Bug Tracking",
+      "ReactJS",
+      "C# .Net",
+      "MS Azure",
     ],
-    description: `A mobile application for scheduling home services (painting, moving, repairs), integrating customer & provider systems.
-- Messaging, booking, service configuration, and job status tracking
-- Stripe payment integration via Laravel backend
+    description: `Responsive web-app for the sea transportation industry (German client). Modules: Chartering, Operation, Marine Accounting.
+- Requirements elicitation, SRS, and Test Case preparation
+- Test execution, bug tracking, and result reporting to PM
 `,
   },
 ]

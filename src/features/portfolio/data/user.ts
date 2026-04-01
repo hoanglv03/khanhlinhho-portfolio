@@ -1,43 +1,52 @@
 import type { User } from "@/features/portfolio/types/user"
 
 export const USER: User = {
-  firstName: "Việt Hoàng",
-  lastName: "Lương",
-  displayName: "Lương Việt Hoàng",
-  username: "hoanglv03",
-  gender: "male",
-  pronouns: "he/him",
-  bio: "Mobile Tech Lead specializing in React Native & Flutter with blockchain expertise.",
+  firstName: "Thị Khánh Linh",
+  lastName: "Hồ",
+  displayName: "Hồ Thị Khánh Linh",
+  username: "khanhlinhho",
+  gender: "female",
+  pronouns: "she/her",
+  bio: "Business Analyst with expertise in requirement analysis, stakeholder management, and product development.",
   flipSentences: [
-    "Mobile Tech Lead",
-    "React Native Developer",
-    "Flutter Developer",
-    "Blockchain Integration",
+    "Business Analyst",
+    "Requirements Engineer",
+    "Product Development",
+    "Agile Practitioner",
   ],
   address: "Ha Noi, Viet Nam",
-  email: "aG9hbmdsdjMud29ya0BnbWFpbC5jb20=", // base64 encoded
-  website: "https://hoanglv-mobile-dev.vercel.app",
-  jobTitle: "Mobile Tech Lead",
-  jobs: [],
+  email: "bHluaC5ob2toYW5oQGdtYWlsLmNvbQ==", // base64 encoded: lynh.hokhanh@gmail.com
+  website: "https://khanhlinhho-portfolio.vercel.app",
+  jobTitle: "Business Analyst",
+  jobs: [
+    {
+      title: "Business Analyst",
+      company: "Newwave Solutions",
+      website: "https://newwave.vn",
+      experienceId: "newwave",
+    },
+  ],
   about: `
-- **Mobile Tech Lead** with extensive experience in **React Native** and **Flutter**, specializing in complex mobile applications with blockchain integration.
-- Proficient in multi-chain crypto wallet development supporting **EVM, Bitcoin, TON, XRP, Tron, and Cardano (ADA)** — implementing token transfers, NFT management, staking, and HD Wallet key derivation using BIP39/BIP44.
-- Strong expertise across mobile libraries: **Redux**, **Riverpod**, **BLoC**, **Reanimated**, **React Navigation**, **Firebase**, **Retrofit/Dio**, and **Expo**.
-- Hands-on experience with geospatial mobile applications using **Mapbox GL**, including offline-capable data layers, GPS tracking, and land parcel annotation.
-- Led mobile teams maintaining clean architecture with the **Repository pattern**, code generation, CI/CD pipelines for iOS and Android, and close collaboration with backend developers and BAs.
+- **Business Analyst** with 3+ years of experience at Newwave Solutions and NTQ Solution JSC, specializing in **requirement analysis**, stakeholder management, and product development support.
+- Experienced in **FSD/SRS documentation, wireframing**, and **UAT coordination** across enterprise software, SaaS platforms, airport management systems, and blockchain/crypto wallet applications.
+- Proficient in **Agile/Scrum** methodologies — actively participating in sprint planning, backlog grooming, and daily stand-ups.
+- Acts as the bridge between business stakeholders and technical teams, translating complex business needs into clear, actionable system requirements.
+- Skilled in **Figma, draw.io/Moqups** for wireframing; **Jira & Confluence** for project tracking and documentation.
 `,
-  avatar: "https://github.com/hoanglv03.png",
-  ogImage: "https://github.com/hoanglv03.png",
+  avatar:
+    "https://media.licdn.com/dms/image/v2/D4D03AQETW698785S_Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726136685041?e=1776902400&v=beta&t=QqQ-jE9l9aqPW_vt6uYUTCba5SaU8YkJCg1sczCw_L8",
+  ogImage:
+    "https://media.licdn.com/dms/image/v2/D4D03AQETW698785S_Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726136685041?e=1776902400&v=beta&t=QqQ-jE9l9aqPW_vt6uYUTCba5SaU8YkJCg1sczCw_L8",
   timeZone: "Asia/Ho_Chi_Minh",
   keywords: [
-    "hoanglv03",
-    "hoang lv",
-    "luong viet hoang",
-    "lương việt hoàng",
-    "mobile developer",
-    "react native",
-    "flutter",
-    "blockchain",
+    "khanhlinhho",
+    "khanh linh",
+    "ho thi khanh linh",
+    "hồ thị khánh linh",
+    "business analyst",
+    "ba",
+    "newwave solutions",
+    "requirements analysis",
   ],
-  dateCreated: "2026-03-22", // YYYY-MM-DD
+  dateCreated: "2026-04-01",
 }

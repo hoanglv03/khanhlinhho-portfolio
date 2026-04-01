@@ -1,24 +1,24 @@
 {
-  "name": "hoanglv-mobile-dev",
+  "name": "khanhlinhho-portfolio",
   "version": "0.1.0",
-  "description": "Mobile Tech Lead portfolio — React Native, Flutter, Blockchain.",
-  "homepage": "https://hoanglv-mobile-dev.vercel.app",
+  "description": "Business Analyst portfolio — Hồ Thị Khánh Linh.",
+  "homepage": "https://khanhlinhho-portfolio.vercel.app",
   "license": "MIT",
   "author": {
-    "name": "Luong Viet Hoang",
-    "email": "luonghoang29022003@gmail.com",
-    "url": "https://github.com/hoanglv03"
+    "name": "Ho Thi Khanh Linh",
+    "email": "lynh.hokhanh@gmail.com",
+    "url": "https://www.linkedin.com/in/thi-khanh-linhho-b5154512b"
   },
   "contributors": [
     {
-      "name": "Luong Viet Hoang",
-      "email": "luonghoang29022003@gmail.com",
-      "url": "https://github.com/hoanglv03"
+      "name": "Ho Thi Khanh Linh",
+      "email": "lynh.hokhanh@gmail.com",
+      "url": "https://www.linkedin.com/in/thi-khanh-linhho-b5154512b"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoanglv03/hoanglv-mobile-dev.git"
+    "url": "git+https://github.com/hoanglv03/khanhlinhho-portfolio.git"
   },
   "scripts": {
     "dev": "next dev",

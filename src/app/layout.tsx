@@ -48,11 +48,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "ncdai",
+      name: USER.displayName,
       url: SITE_INFO.url,
     },
   ],
-  creator: "ncdai",
+  creator: USER.username,
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -80,14 +80,14 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "https://github.com/hoanglv03.png",
-        type: "image/png",
+        url: USER.avatar,
+        type: "image/jpeg",
         sizes: "any",
       },
     ],
     apple: {
-      url: "https://github.com/hoanglv03.png",
-      type: "image/png",
+      url: USER.avatar,
+      type: "image/jpeg",
       sizes: "180x180",
     },
   },
