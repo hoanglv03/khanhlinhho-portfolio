@@ -1,19 +1,19 @@
 import { GeistPixelSquare } from "geist/font/pixel"
-import { Grenze_Gotisch } from "next/font/google"
+import { Cormorant_Upright } from "next/font/google"
 
 import { cn } from "@/lib/utils"
 
-const fontGrenze = Grenze_Gotisch({
+const fontCormorant = Cormorant_Upright({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-grenze",
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-cormorant",
   display: "swap",
 })
 
 export const fontVariables = cn(
-  fontGrenze.variable,
+  fontCormorant.variable,
   GeistPixelSquare.variable,
-  "[--font-sans:var(--font-grenze)]",
-  "[--font-mono:var(--font-grenze)]",
-  "[--font-heading:var(--font-grenze)]"
+  "[--font-sans:var(--font-cormorant)]",
+  "[--font-mono:var(--font-cormorant)]",
+  "[--font-heading:var(--font-cormorant)]"
 )
