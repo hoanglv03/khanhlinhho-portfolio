@@ -10,7 +10,6 @@ import { ProfileCover } from "@/features/portfolio/components/profile-cover"
 import { ProfileHeader } from "@/features/portfolio/components/profile-header"
 import { Projects } from "@/features/portfolio/components/projects"
 import { SocialLinks } from "@/features/portfolio/components/social-links-v2"
-import { TechStack } from "@/features/portfolio/components/tech-stack"
 import { TestimonialsMarquee } from "@/features/portfolio/components/testimonials-marquee"
 import { USER } from "@/features/portfolio/data/user"
 import { cn } from "@/lib/utils"
@@ -47,9 +46,6 @@ export default function Page() {
         <div className="flex h-2 w-full border-x border-line" />
 
         <GitHubContributions />
-        <Separator />
-
-        <TechStack />
         <Separator />
 
         <Experiences />

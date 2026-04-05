@@ -1,22 +1,21 @@
 import { GeistMono } from "geist/font/mono"
 import { GeistPixelSquare } from "geist/font/pixel"
-import { GeistSans } from "geist/font/sans"
+import { Grenze_Gotisch } from "next/font/google"
 
 import { cn } from "@/lib/utils"
 
-const fontSans = GeistSans
-const fontMono = GeistMono
+const fontSans = Grenze_Gotisch({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans",
+  display: "swap",
+})
 
-// export const fontPixel = localFont({
-//   src: "../assets/fonts/DepartureMono-Regular.woff2",
-//   weight: "400",
-//   variable: "--font-pixel",
-// })
+const fontMono = GeistMono
 
 export const fontVariables = cn(
   fontSans.variable,
   fontMono.variable,
   GeistPixelSquare.variable,
-  "[--font-sans:var(--font-geist-sans)]",
   "[--font-mono:var(--font-geist-mono)]"
 )
