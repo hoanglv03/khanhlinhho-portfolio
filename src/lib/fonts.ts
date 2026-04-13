@@ -1,19 +1,20 @@
 import { GeistPixelSquare } from "geist/font/pixel"
-import { Cormorant_Upright } from "next/font/google"
+import { PT_Serif } from "next/font/google"
 
 import { cn } from "@/lib/utils"
 
-const fontCormorant = Cormorant_Upright({
+const fontPTSerif = PT_Serif({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-cormorant",
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-pt-serif",
   display: "swap",
 })
 
 export const fontVariables = cn(
-  fontCormorant.variable,
+  fontPTSerif.variable,
   GeistPixelSquare.variable,
-  "[--font-sans:var(--font-cormorant)]",
-  "[--font-mono:var(--font-cormorant)]",
-  "[--font-heading:var(--font-cormorant)]"
+  "[--font-sans:var(--font-pt-serif)]",
+  "[--font-mono:var(--font-pt-serif)]",
+  "[--font-heading:var(--font-pt-serif)]"
 )

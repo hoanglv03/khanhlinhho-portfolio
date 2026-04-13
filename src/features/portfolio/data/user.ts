@@ -27,11 +27,12 @@ export const USER: User = {
     },
   ],
   about: `
-- **Business Analyst** with 3+ years of experience at Newwave Solutions and NTQ Solution JSC, specializing in **requirement analysis**, stakeholder management, and product development support.
+- **Business Analyst** with 4+ years of experience at Newwave Solutions and NTQ Solution JSC, specializing in **requirement analysis**, stakeholder management, and product development support.
 - Experienced in **FSD/SRS documentation, wireframing**, and **UAT coordination** across enterprise software, SaaS platforms, airport management systems, and blockchain/crypto wallet applications.
 - Proficient in **Agile/Scrum** methodologies — actively participating in sprint planning, backlog grooming, and daily stand-ups.
 - Acts as the bridge between business stakeholders and technical teams, translating complex business needs into clear, actionable system requirements.
 - Skilled in **Figma, draw.io/Moqups** for wireframing; **Jira & Confluence** for project tracking and documentation.
+- Skilled at integrating AI as a productivity multiplier in BA practice — including requirements analysis, spec drafting (SRS/FRD), stakeholder communication, and process improvement — accelerating delivery while maintaining analytical depth and business alignment.
 `,
   avatar: "/avatar.jpeg",
   ogImage: "/avatar.jpeg",

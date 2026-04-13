@@ -124,17 +124,6 @@ Website main page layout change for Korean client (4 members).
         skills: ["Marketing", "Marketing Management"],
       },
       {
-        id: "3",
-        title: "Southern Cross University",
-        employmentPeriod: {
-          start: "2018",
-          end: "2020",
-        },
-        icon: "education",
-        description: "Bachelor's degree, Business/Commerce, General.",
-        skills: ["Business", "Commerce"],
-      },
-      {
         id: "2",
         title: "Foreign Trade University",
         employmentPeriod: {
