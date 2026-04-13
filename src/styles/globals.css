@@ -269,6 +269,10 @@
 }
 
 @layer base {
+  html {
+    font-size: 18px; /* browser default 16px + 2px */
+  }
+
   *,
   ::after,
   ::before,
